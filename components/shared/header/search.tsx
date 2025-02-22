@@ -10,10 +10,9 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { APP_NAME } from '@/lib/constants'
-const categories = ['all', 'books', 'electronics', 'fashion', 'home', 'sports']
+const categories = ['books', 'electronics', 'fashion', 'home', 'sports']
 
 export default async function Search() {
- 
   return (
     <form action="/search" method="GET" className="flex  items-stretch h-10 ">
       <Select name="category">
