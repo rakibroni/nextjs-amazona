@@ -5,7 +5,7 @@ import Menu from './menu'
 import { Button } from '@/components/ui/button'
 import { MenuIcon } from 'lucide-react'
 import data from '@/lib/data'
-import Search from './search'
+import Search from '@/components/shared/header/search'
 
 export default function Header() {
   return (
